@@ -22,6 +22,7 @@
     font-weight: 400;   
     font-size: 18px;
     padding-bottom: 40px;
+    
 }
 .btn-primary{
     width: 160px;
@@ -30,6 +31,7 @@
     align-items: center;
     border-radius: 5px;
     background: #FF5959;
+    text-align: center;
 }
 .donate-title{
     color: #121212;
@@ -43,15 +45,81 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 .amount{
     display: flex;
     justify-content: center;
-    gap: 20;
+    gap: 40px;
+    margin-bottom: 20px;
 }
 .amount-tk{
     width: 135px;
     height: 123px;
     border-radius: 5px;
     background: #FAFAFA;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.input-text{
+    text-align: center;
+   
+
+}
+input{
+color: #B3B3B3;
+text-align: center;
+font-size: 18px;
+
+}
+hr{
+    width: 640px;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.input-text .btn-primary{
+    margin-bottom: 145px;
+}
+.donate-type{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.type{
+    width: 360px;
+height: 352px;
+border-radius: 5px;
+background: rgba(79, 157, 166, 0.10);
+margin-bottom: 120px;
+
+}
+.type img{
+    margin-left: 23px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+.type h3{
+    color: #121212;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin-left: 23px;
+
+}
+.type p{
+    width: 315px;
+    height: 101px;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 23px;
+
+}
+.your-donataion{
+    display: flex;
 }
