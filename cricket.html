@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .bat{
+        background-color: aliceblue;
+      }
+      .feild{
+        width: 1500px;
+        height: 500px;
+        border: 1px solid;
+      }
+       .feild:hover .bat{
+        transform: rotate(-60deg);
+        transform-origin: top;
+       
+       }
+       .bat{
+        transition: transform 1s ease-in;
+       }
+       .ball{
+        width: 50px;
+        height: 50px;
+        background-color: #e01111;
+        border-radius: 50%;
+        position: relative;
+        left: 300px;
+        bottom: 150px;
+        transition: transform 1s ease-out 0.1s ;
+       }
+       .feild:hover .ball{
+        transform: translate(1000px, -500px);
+       }
+    </style>
+</head>
+<body>
+    <div class="feild">
+        <img class="bat" src="images/bat1.jpg" alt="">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
